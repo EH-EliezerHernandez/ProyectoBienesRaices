@@ -1,0 +1,63 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+/* globales */
+h1{
+    font-size: 38px;
+}
+body{
+    font-family:'Lato', sans-serif;
+    line-height: 2;
+}
+.contenedor{
+    max-width:1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+.m-0{
+    margin:0;
+}
+/* Header */
+.site-header{
+    padding:30px 40px;
+}
+.inicio{
+    background-image: url(../img/header.jpg);
+    height: 100vh;
+    min-height: 600px;
+    background-position:center center;
+    background-size:cover;
+}
+.contenido-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px;
+}
+.contenido-header h1{
+    color:white;
+    max-width: 600px;
+    padding-bottom: 20px;
+}
+/* Navegacion */
+.navegacion a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    margin-right: 20px;
+}
+.navegacion a:last-child{
+    margin: 0;
+}
+.navegacion a:hover{
+    color: #71B100;
+}
