@@ -31,7 +31,7 @@ body{
 }
 /* Utilidades */
 .seccion{
-    padding: 20px;
+    padding: 20px 0;
 }
 .centrar-texto{
     text-align:center;
@@ -150,4 +150,22 @@ body{
 .contenedor-verTodas{
     text-align: right;
     margin-top: 20px;
+}
+/* Contactanos */
+.contactanos{
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size:cover;
+    min-height: 400px;
+    color:white;
+}
+.contactanos{
+    display:flex;
+    align-items: center;
+}
+.contenido-contactanos{
+    flex:1;
+}
+.contenido-contactanos div{
+    margin-top:50px;
 }
